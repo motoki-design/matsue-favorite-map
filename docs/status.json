@@ -1,0 +1,26 @@
+{
+ "built_at": "2026-09-18 09:52:07 +0900",
+ "counts": {
+  "active": 31,
+  "deleted": 3,
+  "no_consent": 0,
+  "no_location": 0,
+  "out_of_bbox": 0,
+  "duplicate": 1,
+  "no_photo": 0,
+  "published": 30,
+  "thumb_new": 0,
+  "thumb_failed": 0,
+  "thumb_removed": 0
+ },
+ "fields": {
+  "4": "写真",
+  "5": "この場所の名前・目印",
+  "6": "この場所が好きな理由",
+  "7": "お気に入りの天気と過ごし方",
+  "8": "あなたの属性",
+  "9": "ご年齢",
+  "12": "撮影場所",
+  "14": "写真の利用に同意する"
+ }
+}

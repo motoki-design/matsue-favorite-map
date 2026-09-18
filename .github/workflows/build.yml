@@ -1,0 +1,38 @@
+name: build
+
+on:
+  schedule:
+    - cron: "0 21 * * *"   # 毎日 06:00 JST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Build GeoJSON and thumbnails
+        env:
+          JOTFORM_API_KEY: ${{ secrets.JOTFORM_API_KEY }}
+        run: python build.py | tee -a logs/build.log
+      - name: Commit if changed
+        run: |
+          git config user.name "matsue-favorite-map bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A docs logs
+          if git diff --cached --quiet; then
+            echo "no change"
+          else
+            git commit -m "build: $(tail -1 logs/build.log)"
+            git push
+          fi

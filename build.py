@@ -171,7 +171,7 @@ def main() -> int:
             "type": "Feature",
             "geometry": {"type": "Point", "coordinates": [lon, lat]},
             "properties": {"name": name, "description": popup_html(reason, weather, thumb_url),
-                           "posted": s["created_at"][:10]},
+                           "posted": (datetime.strptime(s["created_at"], "%Y-%m-%d %H:%M:%S") + timedelta(hours=9)).strftime("%Y-%m-%d")},  # APIはUTC→JST
         })
         log["published"] += 1
 

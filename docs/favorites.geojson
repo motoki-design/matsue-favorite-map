@@ -450,6 +450,21 @@
     "description": "<img src='https://motoki-design.github.io/matsue-favorite-map/thumbs/6654592028218518200.jpg' width='280' style='border-radius:6px'><br>「ふるさと」<br>好きな天気：霧の日は幻想的な宍道湖で<br>",
     "posted": "2026-09-17"
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.05447,
+     35.47889
+    ]
+   },
+   "properties": {
+    "name": "石橋町　石川屋さんと長屋",
+    "description": "<img src='https://motoki-design.github.io/matsue-favorite-map/thumbs/6663693382616056387.jpg' width='280' style='border-radius:6px'><br>「明治から続く魚屋さんの建物、6軒長屋のうちの1軒がお店だそうです。この佇まいを見ると、古い時代にはまったように感じます。\n\n<div>この先は鉤型路。行き止まりのように見えてドキドキします。</div>」<br>好きな天気：初秋の雲の多い日、宍道湖で雲と水をぼんやり眺めたい<br>",
+    "posted": "2026-09-28"
+   }
   }
  ]
 }

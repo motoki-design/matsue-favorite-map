@@ -1,5 +1,5 @@
 {
- "built_at": "2026-09-29 09:53:19 +0900",
+ "built_at": "2026-09-30 09:11:55 +0900",
  "counts": {
   "active": 32,
   "deleted": 3,
@@ -9,7 +9,7 @@
   "duplicate": 1,
   "no_photo": 0,
   "published": 31,
-  "thumb_new": 1,
+  "thumb_new": 0,
   "thumb_failed": 0,
   "thumb_removed": 0
  },

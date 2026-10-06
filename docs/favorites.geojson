@@ -465,6 +465,51 @@
     "description": "<img src='https://motoki-design.github.io/matsue-favorite-map/thumbs/6663693382616056387.jpg' width='280' style='border-radius:6px'><br>「明治から続く魚屋さんの建物、6軒長屋のうちの1軒がお店だそうです。この佇まいを見ると、古い時代にはまったように感じます。\n\n<div>この先は鉤型路。行き止まりのように見えてドキドキします。</div>」<br>好きな天気：初秋の雲の多い日、宍道湖で雲と水をぼんやり眺めたい<br>",
     "posted": "2026-09-28"
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.05581,
+     35.46828
+    ]
+   },
+   "properties": {
+    "name": "大橋川",
+    "description": "<img src='https://motoki-design.github.io/matsue-favorite-map/thumbs/6669913702619763711.jpg' width='280' style='border-radius:6px'><br>",
+    "posted": "2026-10-05"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.05581,
+     35.46821
+    ]
+   },
+   "properties": {
+    "name": "大橋川と柳",
+    "description": "<img src='https://motoki-design.github.io/matsue-favorite-map/thumbs/6669914662616038937.jpg' width='280' style='border-radius:6px'><br>",
+    "posted": "2026-10-05"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.05572,
+     35.46874
+    ]
+   },
+   "properties": {
+    "name": "夕日と大橋川を背にする小泉八雲とセツさん",
+    "description": "<img src='https://motoki-design.github.io/matsue-favorite-map/thumbs/6669915782616631152.jpg' width='280' style='border-radius:6px'><br>",
+    "posted": "2026-10-05"
+   }
   }
  ]
 }

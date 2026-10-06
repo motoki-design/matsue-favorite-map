@@ -1,15 +1,15 @@
 {
- "built_at": "2026-10-05 08:53:26 +0900",
+ "built_at": "2026-10-06 10:42:11 +0900",
  "counts": {
-  "active": 32,
+  "active": 35,
   "deleted": 3,
   "no_consent": 0,
   "no_location": 0,
   "out_of_bbox": 0,
   "duplicate": 1,
   "no_photo": 0,
-  "published": 31,
-  "thumb_new": 0,
+  "published": 34,
+  "thumb_new": 3,
   "thumb_failed": 0,
   "thumb_removed": 0
  },
